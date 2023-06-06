@@ -1,0 +1,21 @@
+{
+    "appName": "loginusingaws",
+    "roleName": "pinpointLambdaRoleac62cccc",
+    "cloudformationPolicyName": "cloudformationPolicyac62cccc",
+    "cloudWatchPolicyName": "cloudWatchPolicyac62cccc",
+    "pinpointPolicyName": "pinpointPolicyac62cccc",
+    "authPolicyName": "pinpoint_amplify_ac62cccc",
+    "unauthPolicyName": "pinpoint_amplify_ac62cccc",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

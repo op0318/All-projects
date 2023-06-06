@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "690486808605",
+    "project_id": "locationdataget",
+    "storage_bucket": "locationdataget.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690486808605:android:ad1923b93d5e103a0976f4",
+        "android_client_info": {
+          "package_name": "com.example.firebaseproject1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690486808605-i8djrq97g13dioocf40099k5tajq5u91.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsQejm6ZQdCWzVqaIeLeK3hBIbM-6Pfsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690486808605-i8djrq97g13dioocf40099k5tajq5u91.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
